@@ -44,6 +44,9 @@ table{
 	font-weight: 600;
 	text-transform: uppercase;
 	border-radius: $default-border-radius;
+	-webkit-box-shadow: 2px 3px 4px 0px rgba(185, 199, 202, 0.6);
+	-moz-box-shadow:    2px 3px 4px 0px rgba(185, 199, 202, 0.6);
+	box-shadow:         2px 3px 4px 0px rgba(185, 199, 202, 0.6);
 	&:hover{
 		background-color: $hover-green;
 	}
