@@ -1,3 +1,13 @@
+@media #{$medium-only} { 
+	.schedule_left--container p, .schedule_right--container p{
+	font-size: 1em;
+	}
+	.schedule_right--item{
+		padding: 0;
+		margin: 0;
+	}	
+}
+
 //@media #{$small-up} { }
 @media #{$small-only} { 
 	.banner{
@@ -29,14 +39,17 @@
 	.schedule_right--item{
 		padding: 0;
 		margin: 0;
-	}	
-}
-@media #{$medium-only} { 
-	.schedule_left--container p, .schedule_right--container p{
-	font-size: 1em;
 	}
-	.schedule_right--item{
-		padding: 0;
+
+	#navigation-table input{
+		padding: 10px 165px;
+	}
+	form{
+		label p{
 		margin: 0;
-	}	
+		padding-bottom: 30px;
+		
+		}
+	}
+
 }

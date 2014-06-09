@@ -15,9 +15,9 @@ body{
 h1, h2, h4{
 	font-family: $header-sans-serif;
 	color: $header-blue;
-	font-weight: 700;  
-	-webkit-text-stroke: 1px white; 
-}
+	font-weight: 600; 
+	text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 2px 2px 3px rgba(185,199,202,1);
+	}
 h1{
 	font-size: 3em;
 	text-align: center;
@@ -31,7 +31,6 @@ h2{
 
 h4{
 	font-size: 1.8em;
-	font-weight: 800;
 	letter-spacing: -2px;  
 }
 .wrapper{
@@ -81,9 +80,9 @@ p{
 	padding-left: 0;
 }	
 
-.has-custom-shadow {
-  @include text-shadow(rgba(185,199,202, 0.2) 2px 2px 0, rgba(185,199,202, 0.2) 2px 2px 0, rgba(185,199,202, 0.2) 3px 3px 0);
-}
+//.has-custom-shadow {
+//  @include text-shadow(rgba(185,199,202, 0.2) 2px 2px 0, rgba(185,199,202, 0.2) 2px 2px 0, rgba(185,199,202, 0.2) 3px 3px 0);	
+//}
 
 .schedule_left--container, .schedule_left--time, .schedule_right--container, .schedule_right--time{
 	padding: 0;

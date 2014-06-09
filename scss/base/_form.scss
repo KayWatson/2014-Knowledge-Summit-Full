@@ -4,10 +4,19 @@ form{
 	.required-message{
 	display: none;
 	}
+	p{
+		padding: 0;
+		margin: 0;
+		line-height: 2px;
+	}
 }
 
+ul{
+	padding-top: 10px;
+}
 .ss-choice-label{
 	padding-left: 10px;
+	line-height: -10px;
 }
 
 .ss-q-radio{
