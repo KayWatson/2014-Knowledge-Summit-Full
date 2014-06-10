@@ -212,9 +212,15 @@
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script type="text/javascript">
-      $("#entry_632159492_other_option_response").change(function(e){        
-        $("#group_632159492_14").attr('checked', !!$(e.currentTarget).val());      
-      });    
+      $("#group_632159492_14").on("click", function(e) {
+        $("#entry_632159492_other_option_response").focus();
+      });
+      $("#entry_632159492_other_option_response").change(function(e) {
+        $("#group_632159492_14").attr('checked', !!$(e.currentTarget).val());
+      });
+    $("#entry_632159492_other_option_response").on("focusout", function(e) {
+        $("#group_632159492_14").attr('checked', !!$(e.currentTarget).val());
+      });
     </script>
   </body>
 </html>
