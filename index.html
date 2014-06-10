@@ -26,7 +26,7 @@
       <div class="large-9 medium-9 small-12 large-centered medium-centered columns">
         <h1 class="has-custom-shadow uppercase">data visualization</h1>
         <h2 class="has-custom-shadow uppercase">knowledge summit</h2>
-        <h3 class="center-header">To celebrate 10 years of doing good with data, we’re offering a free two day Data Visualization Knowledge Summit, and we’ve hand-selected you because we love what your organization does. We’re using this opportunity to offer information and support to key organizations so that they can continue to do good in the world.</h3>
+        <h3 class="center-header">To celebrate 10 years of doing good with data, we’re offering a free two-day Data Visualization Knowledge Summit, and we’ve hand-selected you because we love what your organization does. We’re using this opportunity to offer information and support to key organizations so that they can continue to do good in the world.</h3>
       </div>
       <div class="large-9 medium-9 small-12 medium-centered large-centered columns wrapper-schedule">
         <h4 class="has-custom-shadow uppercase">schedule</h4>
@@ -102,7 +102,9 @@
       </div><!--end wrapper-schedule-->
       <div class="large-9 medium-9 medium-centered large-centered small-12 columns wrapper-rsvp">
         <h4 class="has-custom-shadow uppercase">join us</h4> 
-        <h5>We have 30 spots available for this invite-only mini-conference, so please fill out this form before Monday June 16th, 2014.</h5> 
+        <h3 class="not-italic">The two-day summit will be held at the offices of Periscopic in lovely Portland, Oregon.<br> The full address is:</h3>
+        <h3 class="not-italic">235 NW Park Avenue<br>Portland, OR 97209<br>Please call 1-888-773-3749 with any questions</h3>
+        <h5 class="padding-top">We have 30 spots available for this invite-only mini-conference, so please fill out this form before Monday June 16th, 2014.</h5> 
         <h3>If you are unable to attend, please pass this invitation along to another person in your organization.</h3>
         <!--FORM BEGINS HERE-->
         <div id="form">
@@ -159,7 +161,7 @@
           <div dir="ltr" class="ss-item  ss-checkbox"><div class="ss-form-entry">
           <label class="ss-q-item-label" for="entry_1653462837"><div class="ss-q-title" class="form-header"><h3>To help us customize the discussion, please let us know which of these topics would be most interesting to you:</h3>
           </div>
-          <label class="ss-q-item-label" for="entry_190302822"><div class="ss-q-title">Select as many as you like <span class="ss-required-asterisk">*</span></div></div></label>
+          <label class="ss-q-item-label" for="entry_190302822"><div class="ss-q-title">Select as many as you like</div></div></label>
 
           <ul class="ss-choices" role="group" aria-label="To help us customize the discussion, please let us know which of these topics would be most interesting to you: Select as many as you like. "><li class="ss-choice-item"><label><p><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.632159492" value="Knowing what visualization options are possible with the data that your organization collects." id="group_632159492_1" role="checkbox" class="ss-q-checkbox"></span>
           <span class="ss-choice-label">Knowing what visualization options are possible with the data that your organization collects.</span></p>
@@ -209,5 +211,10 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script type="text/javascript">
+      $("#entry_632159492_other_option_response").change(function(e){        
+        $("#group_632159492_14").attr('checked', !!$(e.currentTarget).val());      
+      });    
+    </script>
   </body>
 </html>
