@@ -7,11 +7,9 @@ body{
 	height: 370px;
 	margin-top: -130px;
 	background-image:url('../imgs/banner.png');
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 }
-/*.large-centered{
-	border: 1px solid red;
-}*/
+
 h1, h2, h4{
 	font-family: $header-sans-serif;
 	color: $header-blue;
@@ -29,25 +27,6 @@ h2{
 	margin-top: -20px;
 }
 
-h4{
-	font-size: 1.8em;
-	letter-spacing: -2px;  
-}
-.wrapper{
-	//margin-top: -50px;
-}
-
-.wrapper-rsvp{
-	clear: both;
-}
-.top{
-	margin-top: -120px;
-
-}
-.center-header{
-	text-align: center;
-}
-
 h3{
 	font-family: Georgia, serif;
 	font-style: italic;
@@ -56,8 +35,9 @@ h3{
 	line-height: 1.5em;
 }
 
-.wrapper-rsvp h3{
-	font-size: .95em;
+h4{
+	font-size: 1.8em;
+	letter-spacing: -2px;  
 }
 
 h5{
@@ -70,13 +50,32 @@ p{
 	font-family: Georgia, serif;
 	color: $body-blue;
 }
+.wrapper{
+	//margin-top: -50px;
+}
+
+.wrapper-rsvp{
+	clear: both;
+}
+
+.top{
+	margin-top: -120px;
+
+}
+
+.center-header{
+	text-align: center;
+}
+
+.wrapper-rsvp h3{
+	font-size: .95em;
+}
 
 .wrapper-schedule{
 	margin-top: 30px;
 }
 
 .large-6{
-	//border: 1px solid red;
 	padding-left: 0;
 }	
 
@@ -84,7 +83,6 @@ p{
 	padding: 0;
 	margin: 0;
 }
-
 
 .schedule_left{
 	padding: 0;
@@ -96,7 +94,6 @@ p{
 }
 
 .schedule_left--item{
-	//border: 1px solid blue;
 	padding-right: 20px;
 	padding-left: 0;
 }
@@ -106,8 +103,9 @@ p{
 }
 
 .uppercase{
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
+
 .logo{
 	width: 188px;
 	height: 50px;
@@ -117,52 +115,11 @@ p{
 	float: right;
 	background-repeat: no-repeat;
 }
+
 .not-italic{
 	font-style: normal;
 }
 
 .padding-top{
 	padding-top: 10px;	
-}
-//@media #{$small-up} { }
-@media #{$small-only} { 
-	.banner{
-	width: 100%;
-	height: 370px;
-	margin-top: -180px;
-	}
-	h1{
-		font-size: 2.2em;
-	}
-
-	h2{
-		font-size: 2.2em;
-		margin-top: -10px;
-	}
-	.logo{
-	background-image:none;
-	}
-	h1, h2, h4{  
-	-webkit-text-stroke: 1px white; 
-	font-weight: 800;
-	}
-	.wrapper-schedule{
-	margin-top: 10px;
-	}
-	.schedule_left--container p, .schedule_right--container p{
-	font-size: .9em;
-	}
-	.schedule_right--item{
-		padding: 0;
-		margin: 0;
-	}	
-}
-@media #{$medium-only} { 
-	.schedule_left--container p, .schedule_right--container p{
-	font-size: 1em;
-	}
-	.schedule_right--item{
-		padding: 0;
-		margin: 0;
-	}	
 }

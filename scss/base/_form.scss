@@ -4,6 +4,7 @@ form{
 	.required-message{
 	display: none;
 	}
+
 	p{
 		padding: 0;
 		margin: 0;
@@ -34,6 +35,7 @@ ul{
 	font-size: 1.2em;
 	padding-bottom: 10px;
 }
+
 #navigation-buttons{
 	border: none;
 }
@@ -59,7 +61,6 @@ table{
 	&:hover{
 		background-color: $hover-green;
 	}
-
 }
 
 ol{
